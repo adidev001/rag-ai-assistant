@@ -38,16 +38,7 @@ It allows you to upload PDF documents, indexes them using embeddings, and allows
     ```
     The UI will open in your browser.
 
-## 🐳 Docker Run
-You can also run the entire application using Docker Compose.
 
-1.  Make sure you have Docker Installed.
-2.  Ensure your `.env` file is set up.
-3.  Run:
-    ```bash
-    docker-compose up --build
-    ```
-4.  Open `http://localhost:8501` in your browser.
 
 ## Features
 
