@@ -36,7 +36,7 @@ def search_vector_store(query_embedding, top_k=5):
         n_results=top_k
     )
 
-    print("SEARCH RESULT:", result)
+    # print("SEARCH RESULT:", result)
     return result
 
 

@@ -20,6 +20,9 @@ Question:
 Answer:
 """
     print(f"DEBUG: Using model: {model.model_name}", flush=True)
-    response = model.generate_content(prompt)
-
-    return response.text.strip()
+    try:
+        response = model.generate_content(prompt)
+        return response.text.strip()
+    except Exception as e:
+        print(f"DEBUG: LLM Error: {e}", flush=True)
+        raise e
