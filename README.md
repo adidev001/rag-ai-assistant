@@ -13,7 +13,7 @@ It allows you to upload PDF documents, indexes them using embeddings, and allows
 1.  **Environment Variables**:
     Ensure you have a `.env` file in the root directory with your Google API Key:
     ```
-    GOOGLE_API_KEY=your_dummy_key_here
+    GEMINI_API_KEY=your_dummy_key_here
     ```
 
 2.  **Install Dependencies**:
